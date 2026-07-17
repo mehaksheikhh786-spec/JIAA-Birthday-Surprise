@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,24 +12,63 @@
 
 </head>
 
+
 <body>
 
-<div class="container">
 
-<h1>🎀 Welcome JIAA 🎀</h1>
+<div class="container" id="passwordBox">
+
+<h1>🔐 Secret Surprise 🎀</h1>
 
 <p>
-A magical birthday surprise is waiting for you 💗✨
+Enter the secret password to unlock JIAA's surprise 💗
 </p>
 
-<button onclick="startSurprise()">
-Open Surprise 💌
+
+<input 
+type="password"
+id="password"
+placeholder="Password 💕"
+>
+
+
+<button onclick="checkPassword()">
+Unlock 💖
 </button>
+
+
+<p id="message"></p>
+
 
 </div>
 
 
+
+<div class="container hidden" id="welcomeBox">
+
+
+<h1>
+YAYYYYY JIAA!! 💗✨
+</h1>
+
+
+<p>
+You unlocked your magical birthday surprise 🎀
+</p>
+
+
+<button onclick="nextPage()">
+Continue 💌
+</button>
+
+
+</div>
+
+
+
 <script src="script.js"></script>
 
+
 </body>
+
 </html>
