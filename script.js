@@ -2,6 +2,7 @@ function checkPassword(){
 
 let password = document.getElementById("password").value;
 
+
 if(password === "2009"){
 
 document.getElementById("passwordBox").style.display="none";
@@ -18,6 +19,7 @@ document.getElementById("message").innerHTML =
 }
 
 }
+
 
 
 function nextPage(){
