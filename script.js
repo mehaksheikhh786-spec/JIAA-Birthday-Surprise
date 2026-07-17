@@ -64,3 +64,26 @@ function giftPage(){
 alert("Your surprise gift is coming 🎁💗");
 
 }
+function openLetter(){
+
+document.getElementById("birthdayPage").style.display="none";
+
+document.getElementById("letterPage").classList.remove("hidden");
+
+}
+
+
+
+function showLetter(){
+
+document.getElementById("letter").classList.remove("hidden");
+
+}
+
+
+
+function finalSurprise(){
+
+alert("✨ A magical surprise is coming 💗🎀");
+
+}
