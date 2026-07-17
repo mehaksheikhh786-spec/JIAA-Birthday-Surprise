@@ -21,9 +21,8 @@
 <h1>🔐 Secret Surprise 🎀</h1>
 
 <p>
-Enter the secret password to unlock JIAA's surprise 💗
+Enter the secret password 💗
 </p>
-
 
 <input 
 type="password"
@@ -31,34 +30,96 @@ id="password"
 placeholder="Password 💕"
 >
 
+<br>
 
 <button onclick="checkPassword()">
 Unlock 💖
 </button>
 
-
 <p id="message"></p>
+
+</div>
+
+
+
+
+<div class="container hidden" id="welcomeBox">
+
+<h1>
+YAYYYYY JIAA!! 💗✨
+</h1>
+
+<p>
+You unlocked your magical birthday surprise 🎀
+</p>
+
+<button onclick="nextPage()">
+Continue 💌
+</button>
+
+</div>
+
+
+
+
+<div class="container hidden" id="lovePage">
+
+<h1>
+💕 Do you love me? 💕
+</h1>
+
+<p>
+Choose carefully hehe 🥺
+</p>
+
+
+<button onclick="yesLove()">
+YES 💖
+</button>
+
+
+<button onclick="noLove()">
+NO 🥺
+</button>
 
 
 </div>
 
 
 
-<div class="container hidden" id="welcomeBox">
 
+<div class="container hidden" id="yesPage">
 
 <h1>
-YAYYYYY JIAA!! 💗✨
+YAYYYYY!! 💗✨
 </h1>
 
+<p>
+I knew it 🎀
+</p>
+
+<button>
+Birthday Surprise 🎂
+</button>
+
+</div>
+
+
+
+
+<div class="container hidden" id="noPage">
+
+<h1>
+HUP!! 😳
+</h1>
 
 <p>
-You unlocked your magical birthday surprise 🎀
+How dare you say no!! 🥺💗
 </p>
 
 
-<button onclick="nextPage()">
-Continue 💌
+<button onclick="yesLove()">
+Okay okay 💌
 </button>
 
 
