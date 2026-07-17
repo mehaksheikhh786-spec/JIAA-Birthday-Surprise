@@ -1,70 +1,19 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Comic Sans MS', cursive;
-}
-
-body{
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:linear-gradient(
-        135deg,
-        #ffd6eb,
-        #ff9fd0,
-        #e8b6ff
-    );
-    overflow:hidden;
-}
-
-
-.container{
-
-    background:rgba(255,255,255,0.4);
-    padding:40px;
+input{
+    padding:15px;
     border-radius:30px;
+    border:2px solid #ff69b4;
     text-align:center;
-    backdrop-filter:blur(10px);
-    box-shadow:0 0 30px #ff69b4;
-
+    font-size:18px;
+    margin:15px;
 }
 
+.hidden{
+    display:none;
+}
 
-h1{
-
+#message{
     color:#ff1493;
-    font-size:40px;
-    margin-bottom:20px;
-
+    font-weight:bold;
 }
 
 
-p{
-
-    color:#8b008b;
-    font-size:20px;
-    margin-bottom:25px;
-
-}
-
-
-button{
-
-    background:#ff69b4;
-    color:white;
-    border:none;
-    padding:15px 35px;
-    border-radius:50px;
-    font-size:20px;
-    cursor:pointer;
-
-}
-
-
-button:hover{
-
-    transform:scale(1.1);
-
-}
