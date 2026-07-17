@@ -24,6 +24,28 @@ document.getElementById("message").innerHTML =
 
 function nextPage(){
 
-alert("Next surprise is coming 💌");
+document.getElementById("welcomeBox").style.display="none";
+
+document.getElementById("lovePage").classList.remove("hidden");
+
+}
+
+
+
+function yesLove(){
+
+document.getElementById("lovePage").style.display="none";
+
+document.getElementById("yesPage").classList.remove("hidden");
+
+}
+
+
+
+function noLove(){
+
+document.getElementById("lovePage").style.display="none";
+
+document.getElementById("noPage").classList.remove("hidden");
 
 }
