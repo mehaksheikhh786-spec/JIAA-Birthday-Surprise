@@ -49,3 +49,18 @@ document.getElementById("lovePage").style.display="none";
 document.getElementById("noPage").classList.remove("hidden");
 
 }
+function birthdayPage(){
+
+document.getElementById("yesPage").style.display="none";
+
+document.getElementById("birthdayPage").classList.remove("hidden");
+
+}
+
+
+
+function giftPage(){
+
+alert("Your surprise gift is coming 🎁💗");
+
+}
